@@ -1,0 +1,296 @@
+body {
+    background-image: url(./Asset/Nelflix\ Login\ Background.png);
+    background-size: 56.25;
+    width: 99%;
+    height: 100vh;
+    background-attachment: scroll;
+}
+
+* {
+    font-family: Helvetica;
+}
+
+.logo {
+    width: 180px;
+    height: 100px;
+    position: relative;
+    left: 120px;
+    cursor: pointer;
+}
+
+.card {
+    width: 400px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+
+}
+
+.sign {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.text {
+    width: 300px;
+    height: 55px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 4px;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+::placeholder {
+    color: whitesmoke;
+    position: relative;
+    left: 20px;
+}
+
+.button {
+    width: 300px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 4px;
+    font-size: 100%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.or {
+    position: relative;
+    top: 50px;
+    left: 190px;
+    color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+}
+
+.use {
+    width: 300px;
+    height: 45px;
+    background-color: rgb(128, 128, 128, 0.4);
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 4px;
+    font-size: 95%;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.use:hover {
+    opacity: 0.9;
+}
+
+.forget {
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 140px;
+    border-radius: 4px;
+    font-size: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.forget:hover {
+    text-decoration: underline 1px solid white;
+}
+
+.checkbox {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.remember {
+    color: white;
+    position: relative;
+    top: 56px;
+    left: 55px;
+}
+
+.new {
+    position: relative;
+    top: 70px;
+    left: 55px;
+    color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+}
+
+.up {
+    width: 300px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 170px;
+    border-radius: 4px;
+    font-size: 100%;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.up:hover {
+    text-decoration: underline solid 1px white;
+}
+
+.not {
+    position: relative;
+    top: 50px;
+    left: 55px;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 80%;
+    opacity: 0.7;
+}
+
+.more {
+    position: relative;
+    top: 23px;
+    left: 205px;
+    color: rgb(0, 113, 235);
+    font-size: 80%;
+    cursor: pointer;
+}
+
+.more:hover {
+    text-decoration: underline solid 1px rgb(0, 113, 235);
+}
+
+.footer {
+    width: 100%;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    background-size: cover;
+}
+
+.q {
+    color: rgb(255, 255, 255, 0.7);
+    position: relative;
+    top: 78px;
+    margin-left: 130px;
+}
+
+.u {
+    color: rgb(255, 255, 255, 0.7);
+    position: relative;
+    top: 43px;
+    margin-left: 248px;
+    cursor: pointer;
+}
+
+.f {
+    color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+    position: relative;
+    top: 63px;
+    margin-left: 130px;
+    font-size: 15px;
+    text-decoration: underline 1px solid rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+}
+
+.h {
+    color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+    position: relative;
+    top: 29px;
+    margin-left: 375px;
+    font-size: 15px;
+    text-decoration: underline 1px solid rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+}
+
+.terms {
+    color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+    position: relative;
+    bottom: 1.2px;
+    margin-left: 600px;
+    font-size: 15px;
+    text-decoration: underline 1px solid rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+}
+
+.privacy {
+    color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+    position: relative;
+    bottom: 33.1px;
+    margin-left: 900px;
+    font-size: 15px;
+    text-decoration: underline 1px solid rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+}
+
+.cookie {
+    color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+    position: relative;
+    bottom: 25.1px;
+    margin-left: 130px;
+    font-size: 15px;
+    text-decoration: underline 1px solid rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+}
+
+.corporate {
+    color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+    position: relative;
+    bottom: 57px;
+    margin-left: 370px;
+    font-size: 15px;
+    text-decoration: underline 1px solid rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+}
+
+.select {
+    position: relative;
+    bottom: 39px;
+    margin-left: 160px;
+    color: rgb(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+}
+
+.bar {
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255, 0.7);
+    position: relative;
+    bottom: 17px;
+    margin-left: 130px;
+    border-radius: 3px;
+}
+
+.im {
+    width: 27px;
+    height: 27px;
+}
